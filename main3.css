@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.paragraph10{
+    color: #808080;
+    font-size: 1.5rem;
+    font-size: 37px;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    text-align: justify;
+    float: left;
+    top: 35.1%;
+    left: 39.4%;
+    transform: translate(-118%,-20%);
+    font-family: candara light;
+}
+
+header{
+    background-image: url(papa.jpg);
+    height: 106vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    height: 96px;
+    background-color: #0009;
+    position: center
+    top: 5%;
+    left: 39%;
+    transform: translate(-1.-1%,1%);
+}
+
+.container .heading{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    transform: translate(-15%,-40%);
+    font-family: candara light;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    top: 50%;
+    left: 40%;
+    transform: translate(9%,28%);
+}
+
+.paragraph{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 16%;
+    left: 38%;
+    transform: translate(-14%,-5%);
+    font-family: candara light;
+}
+
+.container .music-container .box .music{
+    width:50%;
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    transform: translate(-20%,-35%);
+}
+
+.container .music-container .box .music audio{
+    width:100%;
+    outline:none;
+}
+
+.container .music-container .c .d{
+    width:50%;
+    position: absolute;
+    top: 30%;
+    left: 63.1%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .c .d audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph2{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    transform: translate(-14%,-5%); 
+    font-family: candara light;
+}
+
+.container .music-container .e .f{
+    width:50%;
+    position: absolute;
+    top: 40%;
+    left: 63.2%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .e .f audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph3{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 35.1%;
+    left: 39.4%;
+    transform: translate(-30%,-5%);
+    font-family: candara light;
+}
+
+.container .music-container .g .h{
+    width:50%;
+    position: absolute;
+    top: 50%;
+    left: 63.2%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .g .h audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph4{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 39.4%;
+    transform: translate(-30%,-5%);
+    font-family: candara light;
+}
+
+.container .music-container .i .j{
+    width:50%;
+    position: absolute;
+    top: 60%;
+    left: 63.2%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .i .j audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph5{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 55.3%;
+    left: 39.4%;
+    transform: translate(-30%,-5%); 
+    font-family: candara light;
+}
+
+.container .music-container .k .l{
+    width:50%;
+    position: absolute;
+    top: 70%;
+    left: 88.2%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .k .l audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph6{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 65.5%;
+    left: 39.4%;
+    transform: translate(-30%,-5%); 
+    font-family: candara light;
+}
+
+.container .music-container .m .n{
+    width:50%;
+    position: absolute;
+    top: 80%;
+    left: 88.2%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .m .n audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph7{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 74.7%;
+    left: 39.4%;
+    transform: translate(-30%,-4%); 
+    font-family: candara light;
+}
+
+.container .music-container .o .p{
+    width:50%;
+    position: absolute;
+    top: 89.5%;
+    left: 88.2%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .o .p audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph8{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 84.5%;
+    left: 39.4%;
+    transform: translate(-30%,-5%);
+    font-family: candara light;
+}
+
+.container .music-container .q .r{
+    width:50%;
+    position: absolute;
+    top: 100%;
+    left: 88.2%;
+    transform: translate(-80%,-52%);
+}
+
+.container .music-container .q .r audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph9{
+    color: #808080;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: inherit;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 93.5%;
+    left: 39.4%;
+    transform: translate(-30%,-5%);
+    font-family: candara light;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li{
+    padding: 10px 0px;
+}
+
+ul li a{
+    text-decoration:;
+    color: #fff;
+    padding: 40px 40px;
+    border: 1px transparent #000;
+    transition: 0.6s ease #fff;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #CFB997;
+}
+
+.logo img{
+    float:left;
+    width: 200px;
+    height: auto;
+}
+
+.main{
+    max-width: 1900px;
+    margin: auto;
+}
+
+.little{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+}
+
+.little h1{
+    color: #000;
+    font-size: 70px;
+    position: center;
+    top: 290%;
+    left: 50%;
+    transform: translate(-10%,250%);
+}
+
+.little p{
+    color: #000;
+    font-size: 30px;
+    position: center;
+    top: 100%;
+    left: 50%;
+    transform: translate(-10%,80%);
+}
+
+ul li a b{
+    font-size: 30px;
+    font-family: candara light;
+}
+
+ul li a b c{
+    font-size: 30px;
+}
+
+.toolittle{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+}
+
+.toolittle h1{
+    color: #000;
+    font-size: 40px;
+}
+
+.little h2{
+    color: #000;
+    font-size: 30px;
+}

@@ -1,0 +1,1041 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: candara light;
+}
+
+header{
+    background: url(Picture2.jpg);
+    height: 10%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slidershow{
+    width: 980px;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 0 rgb(151, 76, 6);
+    color: #0009;
+}
+
+.l{
+    width: 100%;
+    height: 80px;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(0%,-230%);
+    border: none;
+    outline: none;
+    padding: 20px;
+    opacity: 40%;
+}
+
+.c{
+    width: 100%;
+    height: 50px;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(0%,-10%);
+    border: none;
+    outline: none;
+    padding: 20px;
+    opacity: 20%; 
+    color: antiquewhite;
+    opacity: 20%;
+}
+
+.con{
+    font-size: 20px;
+    position: absolute;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(-8%,155%);
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px; 
+    font-family: candara light;
+}
+
+.con h1{
+    font-size: 30px;
+}
+
+.cntain{
+    font-size: 20px;
+    position: absolute;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(-8%,310%);
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: candara light;
+}
+
+.cntain h1{
+    font-size: 30px;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(-0%,10%);
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 100px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 115%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+nav{
+    width: 100%;
+    height: 96px;
+    background-color: #0009;
+    position: center
+    top: 5%;
+    left: 39%;
+    transform: translate(-1.-1%,1%);
+}
+
+section{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(10%,-110%);
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: inherit;
+    color: rgb(27, 166, 247) ;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+button[type="submit"]:hover{
+    background-color: #fff;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    top: 50%;
+    left: 40%;
+    transform: translate(8%,28%);
+}
+.container .heading{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #808080;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(-5%,-40%);
+}
+
+.paragraph{
+   font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #808080;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: translate(-14%,-5%); 
+}
+
+.container .music-container .box .music{
+    width:75%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-20%,-35%);
+}
+
+.container .music-container .box .music audio{
+    width:100%;
+    outline:none;
+}
+
+.container .music-container .c .d{
+    width:75%;
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .c .d audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph2{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: translate(-14%,-5%); 
+}
+
+.container .music-container .e .f{
+    width:75%;
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .e .f audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph3{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 35.1%;
+    left: 12%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .g .h{
+    width:75%;
+    position: absolute;
+    top: 50%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .g .h audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph4{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 45%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .i .j{
+    width:75%;
+    position: absolute;
+    top: 60%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .i .j audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph5{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 55.3%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .k .l{
+    width:75%;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .k .l audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph6{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .m .n{
+    width:75%;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .m .n audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph7{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 75.6%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .o .p{
+    width:75%;
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .o .p audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph8{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 83.5%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .q .r{
+    width:75%;
+    position: absolute;
+    top: 96%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .q .r audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph9{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 91%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+nav ul li{
+    display:inline-block;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    padding: 10px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 15px;
+    border: 1px transparent #000;
+    transition: 3s #fff all;
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #808080;
+}
+
+nav ul ul{
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display:list-item;   
+}
+
+.logo img{
+    float:left;
+    width: 200px;
+    height: auto;
+}
+
+nav ul a c{
+    font-size: 30px;
+    font-family: candara light;
+}
+
+nav ul a d{
+    font-size: 30px;
+    font-family: candara light;
+    padding-top: 50px;
+}
+
+.main{
+    max-width: 1900px;
+    margin: auto;
+}
+
+.little{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+    font-family: candara light;
+}
+
+.little h1{
+    color: #fff;
+    font-size: 40px;
+    position: center;
+    top: 290%;
+    left: 50%;
+    transform: translate(-10%,180%);
+}
+
+.little p{
+    color: #fff;
+    font-size: 40px;
+    position: center;
+    top: 100%;
+    left: 50%;
+    transform: translate(-10%,70%);
+}
+
+ul li a b{
+    font-size: 50px;
+    font-family: candara light;
+}
+
+ul li a b{
+    font-size: 10px;
+    font-family: candara light;
+}
+
+ul li a b{
+    font-size: 10px;
+}
+
+.toolittle{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+}
+
+.toolittle h1{
+    color: #808080;
+    font-size: 40px;
+}
+
+.littl{
+    color: #808080;
+    top: 20%;
+    left: 40%;
+    transform: translate(0%,10%);
+    font-family: candara light;
+}
+
+.contact{
+    width: 20%;
+    padding: 20px;
+    font-size: 18px;
+    border: 0px solid;
+    top: 10%;
+    left: 100%;
+    transform: translate(-5%,685%);
+    font-family: candara light;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:inherit;
+}
+
+header{
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.1);
+    height: 20000%;
+}
+
+#status{
+    text-align: absolute;
+    font-size: 30px;
+    font-family: candara light;
+}
+
+#status.success{
+    color: #000;
+}
+
+#status.error{
+    color: #fff;
+}
+
+.form-group{
+    width: 50%;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #808080;
+    top: 10%;
+    left: 100%;
+    transform: translate(75%,1%);
+    font-family: candara light;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 8px;
+    font-family: inherit;
+    color: rgb(27, 166, 247) ;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s ease;
+    font-family: candara light;
+}
+
+.container{
+    color: #000;
+    font-size: 100px;
+}
+
+button[type="submit"]:hover{
+    background-color: #fff;
+}
+
+nav{
+    width: 100%;
+    height: 96px;
+    background-color: #0009;
+    position: center
+    top: 5%;
+    left: 39%;
+    transform: translate(-1.-1%,1%);
+}
+
+.l{
+    background-color: antiquewhite;
+}
+
+.how{
+    color: #808080;
+    top: 5%;
+    text-align: left;
+    left: 30000%;
+    transform: translate(0%,-1100%);
+    font-family: candara light;
+    text-align: absolute;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    top: 50%;
+    left: 40%;
+    transform: translate(8%,28%);
+}
+.container .heading{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(-5%,-40%);
+}
+
+.paragraph{
+   font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: translate(-14%,-5%); 
+}
+
+.container .music-container .box .music{
+    width:75%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-20%,-35%);
+}
+
+.container .music-container .box .music audio{
+    width:100%;
+    outline:none;
+}
+
+.container .music-container .c .d{
+    width:75%;
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .c .d audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph2{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: translate(-14%,-5%); 
+}
+
+.container .music-container .e .f{
+    width:75%;
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .e .f audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph3{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 35.1%;
+    left: 12%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .g .h{
+    width:75%;
+    position: absolute;
+    top: 50%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .g .h audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph4{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 45%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .i .j{
+    width:75%;
+    position: absolute;
+    top: 60%;
+    left: 42.5%;
+    transform: translate(-30%,-42.5%);
+}
+
+.container .music-container .i .j audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph5{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 55.3%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .k .l{
+    width:75%;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .k .l audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph6{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 65.5%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .m .n{
+    width:75%;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .m .n audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph7{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 75.6%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .o .p{
+    width:75%;
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .o .p audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph8{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 83.5%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+.container .music-container .q .r{
+    width:75%;
+    position: absolute;
+    top: 96%;
+    left: 80%;
+    transform: translate(-80%,-42.5%);
+}
+
+.container .music-container .q .r audio{
+    width:100%;
+    outline:none;
+}
+
+.paragraph9{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #000;
+    position: absolute;
+    top: 91%;
+    left: 7.4%;
+    transform: translate(-30%,-5%); 
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li{
+    padding: 10px 0px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 40px 40px;
+    border: 1px transparent #000;
+    transition: 3s #fff all;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #CFB997;
+}
+
+.logo img{
+    float:left;
+    width: 200px;
+    height: auto;
+}
+
+.main{
+    max-width: 1900px;
+    margin: auto;
+}
+
+.little{
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    transform: translate(-20%,-40%);
+}
+
+.little h1{
+    color: #fff;
+    font-size: 40px;
+    position: center;
+    top: 290%;
+    left: 50%;
+    transform: translate(-10%,180%);
+}
+
+.little p{
+    color: #fff;
+    font-size: 40px;
+    position: center;
+    top: 100%;
+    left: 50%;
+    transform: translate(-10%,100%);
+}
+
+ul li a b{
+    font-size: 30px;
+}
+
+ul li a b c{
+    font-size: px;
+}
+
+.tlittle{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-40%,-190%);
+}
+
+.tlittle h1{
+    color: #fff;
+    font-size: 40px;
+    top: 20%;
+    left: 40%;
+    transform: translate(-40%,-30%);
+}
+
+.tlittle p{
+    color: #808080;
+    font-size: 30px;
+    top: 20%;
+    left: 40%;
+    transform: translate(30%,3300%);
+}
